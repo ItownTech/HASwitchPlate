@@ -4,7 +4,7 @@ The HA SwitchPlate is a user-programmable LCD touchscreen you can mount into a [
 
 ![HA SwitchPlate Models](https://github.com/aderusha/HASwitchPlate/blob/master/Documentation/Images/HASwitchPlate_Three_Model_Variations.png?raw=true)
 
-The HA SwitchPlate ("HASP") utilizes a [Nextion 2.4" LCD Touchscreen display](https://amzn.to/2DIpahB) mounted in a 3D-printed enclosure as a touchscreen panel for home control and information display.  An [ESP8266-based microcontroller](https://amzn.to/2Gc92Xs) provides WiFi connectivity and system control.  The project has been developed to integrate with [Home Assistant](https://home-assistant.io/) and [OpenHAB](https://www.openhab.org/) but [should be compatible](Documentation/06_MQTT_Control.md) with any other MQTT-enabled automation platform such as [Domoticz](https://www.domoticz.com/wiki/MQTT), [Node-Red](http://noderedguide.com/tag/mqtt/), [Wink](https://github.com/danielolson13/wink-mqtt), [SmartThings](https://github.com/stjohnjohnson/smartthings-mqtt-bridge), [Vera](https://github.com/jonferreira/vera-mqtt), [HomeKit](https://www.npmjs.com/package/homekit2mqtt), etc.
+The HA SwitchPlate ("HASP") utilizes a [Nextion 2.4" LCD Touchscreen display](https://amzn.to/2TRTEU2) mounted in a 3D-printed enclosure as a touchscreen panel for home control and information display.  An [ESP8266-based microcontroller](https://amzn.to/2UZlga4) provides WiFi connectivity and system control.  The project has been developed to integrate with [Home Assistant](https://home-assistant.io/) and [OpenHAB](https://www.openhab.org/) but [should be compatible](Documentation/06_MQTT_Control.md) with any other MQTT-enabled automation platform such as [Domoticz](https://www.domoticz.com/wiki/MQTT), [Node-Red](http://noderedguide.com/tag/mqtt/), [Wink](https://github.com/danielolson13/wink-mqtt), [SmartThings](https://github.com/stjohnjohnson/smartthings-mqtt-bridge), [Vera](https://github.com/jonferreira/vera-mqtt), [HomeKit](https://www.npmjs.com/package/homekit2mqtt), etc.
 
 The [Arduino code](Arduino_Sketch) for the ESP8266 provides a generic gateway between [MQTT](https://en.wikipedia.org/wiki/MQTT) and the [Nextion instruction set](https://www.itead.cc/wiki/Nextion_Instruction_Set).  A basic [Nextion HMI display file](Nextion_HMI) has been included with several pages of various layouts to provide user controls or to present information in response to MQTT messages sent to the device.
 
@@ -18,7 +18,7 @@ As this build requires some specialist skills and tools, I will occasionally be 
 
 ## Buy me a coffee
 
-[![Buy me a coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/gW5rPpsKR)
+[![Buy me a coffee](https://www.buymeacoffee.com/assets/img/custom_images/black_img.png)](https://www.buymeacoffee.com/gW5rPpsKR)
 
 This project is powered by coffee.  [I might get a little weird about it at times](https://github.com/aderusha/RoastLearner), but it's not much of a stretch to suggest that coffee both powers and consumes a fair portion of my mental energy.  [Hook me up if you think HASP is cool](https://www.buymeacoffee.com/gW5rPpsKR).  Thanks!
 
@@ -28,19 +28,19 @@ To build a simple version of this project you will minimally need the [Nextion d
 
 A complete build that's ready to install will require the following components:
 
-* [Nextion 2.4" LCD Touchscreen display](https://amzn.to/2DIpahB)
-* [WeMos D1 Mini ESP8266 WiFi microcontroller](https://amzn.to/2Gc92Xs)
+* [Nextion 2.4" LCD Touchscreen display](https://amzn.to/2TRTEU2)
+* [WeMos D1 Mini ESP8266 WiFi microcontroller](https://amzn.to/2UZlga4)
 * [3D printed switch plate](3D_Printable_Models/HASwitchPlate_front_single.stl)
 * [3D printed rear cover](3D_Printable_Models/HASwitchPlate_rear_nolcdmod.stl)
-* [Mean Well IRM-03-5 AC to 5VDC Power supply](https://amzn.to/2MNF7Gx)
+* [Mean Well IRM-03-5 AC to 5VDC Power supply](https://amzn.to/2UUWGa8)
 * [PCB](PCB/)
-* [2N3904 NPN Transistor](https://amzn.to/2TBCBFH)
-* [1k Ohm Resistor](https://amzn.to/2t7UFvF)
-* [4pin 2.54mm JST-XH PCB header](https://amzn.to/2MFV15p)
-* [Rubber grommet](https://amzn.to/2G9y49I)
-* [6" each of white and black 300V 18AWG stranded power cables](https://amzn.to/2SjXO9G)
-* [Two M2 self-tapping 6MM screws](https://amzn.to/2TnlsQ6) (or just any 4-6mm M2 screws) to mount PCB in rear enclosure
-* [Four 20mm M2 flathead screws](https://amzn.to/2Gb5pAZ) and [four 3mm M2 threaded inserts](https://amzn.to/2SgVO21) to fasten both halves of the enclosure together
+* [2N3904 NPN Transistor](https://amzn.to/2TRuwwD)
+* [1k Ohm Resistor](https://amzn.to/2Ec3kTZ)
+* [4pin 2.54mm JST-XH PCB header](https://amzn.to/2Eaywmt)
+* [Rubber grommet](https://amzn.to/2N6Etny)
+* [6" each of white and black 300V 18AWG stranded power cables](https://amzn.to/2EcMmoA)
+* [Two M2 self-tapping 6MM screws](https://amzn.to/2V0djBg) (or just any 4-6mm M2 screws) to mount PCB in rear enclosure
+* [Four 20mm M2 flathead screws](https://amzn.to/2TQvd9N) and [four 3mm M2 threaded inserts](https://amzn.to/2N511Fh) to fasten both halves of the enclosure together
 
 ## Get Started!
 
